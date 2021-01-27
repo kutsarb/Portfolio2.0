@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <link rel="stylesheet" href="reset.css">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Josefin+Sans&display=swap" rel="stylesheet">
+
+  <title>Brian's Portfolio</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#page1">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#page2">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#page3">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="page1">
+    <div class="wrapper">
+      <div class="page1 container-fluid"
+        style=" margin: 0px; display: block; position: relative; box-sizing: content-box; width: 100%; min-height: 770px; height: 770px;">
+        <h1 class="display-1">Brian Kutsar</h1>
+        <h3>Full-Stack Web Developer</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="page2">
+    <div class="page2 container-fluid"
+      style=" margin: 0px; display: block; position: relative; box-sizing: content-box; width: 100%; min-height: 770px; height: 770px; padding-top: 0px;">
+      <div class="row d-flex justify-content-center mb-2">
+        <div class="col-md-8 text-center">
+          <h1 class="sectionTitle">About Me</h1>
+          <hr>
+        </div>
+      </div>
+      <div class="row d-flex mt-2 justify-content-center aboutSec">
+        <div class="col-md-6 mb-3 d-flex flex-column justify-content-center">
+          <p class="aboutPar">I am a Full Stack Web Developer with a background in Logistics. I am always trying to
+            learn new skills at my job and outside of work. I am known among
+            coworkers and peers as a hard worker with a strong attention to detail. I am currently studying Full Stack
+            Web
+            Development at Case Western Reserve University.
+          </p>
+        </div>
+        <div class="col-md-5 d-flex justify-content-center align-items-center">
+          <div class="card profilephoto">
+            <div class="card-body">
+              <div class="card-image">
+
+              </div>
+            </div>
+          </div>
+          <!-- <img src="./assets/8S9A7793.jpg" class="aboutPics" style="size: 4vw;" alt=""> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="page3">
+    <div class="wrapper">
+      <div class="page3 container-fluid"
+        style=" margin: 0px; display: block; position: relative; box-sizing: content-box; width: 100%; min-height: 770px; height: 1170px;">
+        <div class="row d-flex justify-content-center mb-2">
+          <div class="col-md-8 text-center">
+            <h1 class="sectionTitle">My Work</h1>
+            <p>You can view some of my latest projects below!</p>
+            <hr>
+          </div>
+        </div>
+        <div class="row d-flex mt-1 justify-content-center aboutSec">
+          <div class="col-md-5 d-flex justify-content-center mb-5">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Weather App</h5>
+                <img src="./assets/weather-app.JPG" class="card-image"></img>
+                <p class="card-text">An that lets a user check out weather in a given city and saves recent searches to
+                  a list in local storage.</p>
+                <a href="https://kutsarb.github.io/Weather-App/" target="_blank" class="app-link"> App</a>
+                <a href="https://github.com/kutsarb/Weather-App.git" target="_blank" class="repo-link"> Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 d-flex justify-content-center mb-5">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Password-Generator</h5>
+                <img src="./assets/pass-app.jpg" class="card-image"></img>
+                <p class="card-text">An app allows a user to select parameters for a password that is generated for the
+                  user.</p>
+                <a href="https://kutsarb.github.io/Password-Generator/" target="_blank" class="app-link"> App</a>
+                <a href="https://github.com/kutsarb/Password-Generator.git" target="_blank" class="repo-link"> Repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex mt-1 justify-content-center aboutSec">
+          <div class="col-md-5 d-flex justify-content-center mb-5">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Loaded</h5>
+                <img src="./assets/loaded-app.jpg" class="card-image"></img>
+                <p class="card-text">An app that allows a user to track and update logistics information. The app has
+                  an integrated google maps api as well as a custom sql database.</p>
+                <a href="https://github.com/kutsarb/Loaded.git" target="_blank" class="repo-link"> Repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </section>
+
+
+  <footer class="footer" id="contact">
+        <ul>
+          <li class="contact">Contact</li>
+          <li>
+            <a href="https://www.instagram.com/brain_kutsar/">Instagram</a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/brian.kutsar/">Facebook</a>
+          </li>
+          <li>
+            <a href="https://github.com/kutsarb">Git Hub</a>
+          </li>
+        </ul>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

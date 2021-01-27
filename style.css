@@ -1,0 +1,143 @@
+.pic {
+    width: 100%;
+    height: 20rem;
+    object-fit: contain;
+    padding-right: 2em;
+    padding-left: 2em;
+    border-style: groove;
+    border-color: black;
+}
+
+.page1 {
+    background-image: url("./assets/coverphoto.jpg");
+    background-size: cover;
+}
+
+.row {
+    padding-top: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.display-1 {
+    font-family: 'Dosis', sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    position: absolute;
+    z-index: 20;
+    top: 1%;
+    left: 2%;
+    display: inline-block;
+}
+
+.footer {
+    height: 45px;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    margin-bottom: 0%;
+}
+
+footer ul{
+    clear:both;
+    text-align:center;
+    margin-bottom: 0%;
+}
+
+
+footer li {
+    display: inline-block;
+    /*  float: left;  */
+    list-style-type: none;
+    border-right: 1px solid #354052;
+    padding: 0px 10px;
+    display: inline;
+    padding-top: 5px;
+}
+
+.card {
+    text-align: center;
+    border-style: inset;
+    border-color: black;
+    border-width: .25mm;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+
+
+
+#row1 {
+    top: 1mm;
+}
+
+.page1>h3 {
+    font-family: 'Dosis', sans-serif;
+    color: rgba(255, 255, 255, 0.849);
+    position: absolute;
+    top: 18%;
+    left: 14%;
+}
+
+.display-2 {
+    font-size: 3.5pc;
+    color: rgba(255, 255, 255, 0.76);
+    position: absolute;
+    z-index: 20;
+    top: 5%;
+    left: 50%;
+    display: inline-block;
+}
+
+.profilephoto {
+    background-image: url("./assets/8S9A7793.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+}
+
+.page1, .page2, .page3 {
+    border-top: medium;
+    border-style: solid;
+    border-color: #343a40;
+}
+
+.page1>h1, .page2>h1, .page3>h1 {
+    font: bold;
+}
+
+.page1>p, .page2>p, .page3>p {
+    font-family: serif;
+}
+
+.card-image {
+    width: 300px;
+    height: 200px;
+}
+
+.card-body {
+    width: 350px;
+    padding-right: 12%;
+    padding-left: 5%;
+}
+
+.card-body>p {
+    width: 300px;
+}
+
+.card-body>h5 {
+    border-bottom: #343a40;
+    border-style: solid;
+}
+
+.contact{
+    color:white;
+    font-size: x-large;
+    float: left;
+}
